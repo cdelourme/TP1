@@ -5,7 +5,9 @@ package DuDCL.Toto;
  *
  */
 public class App {
-  public static void main( String[] args ){
+  public static void main( String[] args ) {
+	A a1 = new A();
+	a1.setNom("Toto");
     System.out.println( "Hello World!" );
   }
 }
